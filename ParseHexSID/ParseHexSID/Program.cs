@@ -15,6 +15,7 @@ namespace ParseHexSID
             {
                 Console.WriteLine("Usage: ParseHexSID <Hex value>.");
                 Console.WriteLine("Example: ParseHexSID \"01 05 00 00 00 00 00 05 15 00 00 00 1A 9E BC 0D 8D BA EF 81 B8 E3 98 4A 50 04 00 00\"");
+                return;
             }
 
             byte[] bytes = GetBytes(args[0]).ToArray();
